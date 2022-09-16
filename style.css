@@ -1,0 +1,114 @@
+body {
+    background-image: url(./kitchen.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+  
+  #mainLeft {
+    width: 30%;
+    font-family: "Arima Madurai", cursive;
+    background-color: maroon;
+    opacity: 90%;
+    margin: auto;
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    top: 3em;
+    left: 5%;
+  }
+  
+  #mainRight {
+    width: 50%;
+    height: auto;
+    font-family: "Arima Madurai", cursive;
+    background-color: maroon;
+    opacity: 90%;
+    margin: auto;
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    top: 3em;
+    right: 5%;
+    margin-bottom: 3em;
+    display: inline-block;
+    overflow: auto;
+  }
+
+  #results {
+    width: 80%;
+    background-color: tan;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 2em;
+    padding-bottom: 2em;
+  }
+
+  #detailResults {
+    width: 88%;
+    background-color: tan;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .searchBar {
+    background-color: tan;
+    padding: .5em;
+    font-size: 1em;
+  }
+
+  .card-image-left {
+    width: 50%;
+    height: 50%;
+  }
+
+  .card-image-right {
+    width: 40%;
+    height: 40%;
+    margin: 1%;
+  }
+
+  .flex-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #listOfIngredients {
+    padding-right: 3em
+  }
+
+  .card-title {
+    margin-bottom: .25em;
+    margin-top: .25em;
+  }
+
+  .small-margin {
+    margin-bottom: .25em;
+    margin-top: .25em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .recipeDetailsButton {
+    background-color: maroon;
+    padding: 5px;
+    color: tan;
+  }
+
+  .recipeDetailsButton {
+    padding: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+  }
